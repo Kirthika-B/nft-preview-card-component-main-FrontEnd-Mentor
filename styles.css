@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@1,900&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 20px;
+  width: 375px;
+  margin: 0 auto;
+  box-shadow: 14px 28px 53px -3px rgba(0, 0, 0, 0.75);
+}
+.card {
+  position: relative;
+  background-color: aqua;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.Equilibrium {
+  width: 100%;
+  display: block;
+}
+
+.eye_view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.card:hover .Equilibrium {
+  cursor: pointer;
+
+  opacity: 0.5;
+}
+.card:hover .eye_view {
+  display: block;
+}
+
+.icon-ethereum {
+  width: 10px;
+}
+.clock {
+  width: 15px;
+}
+
+hr {
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  margin-bottom: px;
+}
+h4 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 14px;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+p {
+  font-size: 18px;
+  color: hsl(215, 44%, 68%);
+  opacity: 0.8;
+  font-weight: 300;
+  word-spacing: 0.2;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.eth {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(178, 100%, 50%);
+  font-weight: 500;
+}
+
+.views {
+  margin-left: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.clock_days {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(215, 44%, 68%);
+}
+.clock {
+  margin-right: 8px;
+  width: 1em;
+}
+.days {
+  font-size: 16px;
+  font-weight: 300;
+}
+.profile_info {
+  display: flex;
+  justify-content: last baseline;
+  margin-top: 20px;
+}
+.profile_image {
+  width: 12%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.name {
+  color: hsl(215, 44%, 68%);
+  margin-left: 15px;
+  margin-top: 7px;
+  opacity: 0.9;
+}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+h4:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
